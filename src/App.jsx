@@ -5,7 +5,7 @@ function Encabezado(props) {
   return (
     <div style={{ backgroundColor: '#242424', padding: '10px', borderRadius: '8px', marginBottom: '20px' }}>
       <h2>🎬 Recomendaciones de {props.genero}</h2>
-      <p>Lista curada especialmente por: <strong>{props.usuario}</strong></p>
+      <p>Lista creada especialmente por: <strong>{props.usuario}</strong></p>
     </div>
   )
 }
